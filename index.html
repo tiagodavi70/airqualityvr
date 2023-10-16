@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <meta charset="UTF-8">
+    <head>
+        <title> Air Quality </title>
+        <!-- <script src="https://d3js.org/d3.v5.min.js"></script> -->
+        <script type="importmap">
+            {
+              "imports": {
+                "three": "https://unpkg.com/three@0.157.0/build/three.module.js",
+                "three/addons/": "https://unpkg.com/three@0.157.0/examples/jsm/",
+                "d3": "https://cdn.jsdelivr.net/npm/d3@7/+esm"
+              }
+            }
+          </script>
+          <style>
+        	#main-canvas {
+            	width: 90vw;
+            }
+          </style>
+    </head>
+    <body>
+        <canvas id="main-canvas"></canvas>
+        <button id="log-button"> Log </button>
+        
+    </body>
+
+    <script type="text/javascript"> </script>
+    <script type="module" src="/utils.mjs"></script>
+    <script type="module" src="/app.js"></script>
+</html>
